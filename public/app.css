@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+  nav, header {
+    background: #20232a;
+    box-shadow: 0 0 0 !important;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+  }
+  .brand-logo {
+    font-family: 'Pacifico', cursive;
+    color: #61dafb !important;
+}
+
+.card .card-image .card-title {
+  position: static !important;
+}
+#nav-mobile li a.active {
+    background: #131313;
+}
+  .logo {
+    width:30px
+  }
+
+
+.ptb-50px {padding:50px 0}
+
+.user_info img {
+    width: 40px;
+    border-radius: 100px;
+    position: absolute;
+    right: 23px;
+    top: 14px;
+}
+.text-black {color:#000}
+
+.activator img {
+    width: 40px;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.material-icons {vertical-align: text-bottom !important;}
+
+body, p, h1, h2{font-family: 'Sen', sans-serif;}
+p {
+    line-height: 30px;
+    color: #232323;
+}
+.blog {width: 600px; margin: auto; display: block;}
+
+.card-content p {
+    min-height: 130px;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 5px;
+    background: #61dafb;
+    top: 64px;
+    width: 100%;
+    transition: all 0.3s;
+}

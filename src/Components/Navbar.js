@@ -4,6 +4,7 @@ import {Link, NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
     <header>
+      <div className="progress-bar"></div>
         <div className="container">
         <nav>
       <div className="nav-wrapper">
