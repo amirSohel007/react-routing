@@ -1,10 +1,21 @@
 import React from "react";
 import {Link, NavLink} from 'react-router-dom'
+import { useState } from 'react';
+
 
 const Navbar = () => {
+  const [value, setValue] = useState();
+  window.onscroll = () => {
+    const offsetTop = document.scrollingElement.scrollTop;
+    const currentViewPort = document.scrollingElement.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const usedScroll = (offsetTop/(currentViewPort-windowHeight))*100
+    setValue(usedScroll)
+   }
+
   return (
     <header>
-      <div className="progress-bar"></div>
+      <div style={{width: value+'%'}} className="progress-bar"></div>
         <div className="container">
         <nav>
       <div className="nav-wrapper">
