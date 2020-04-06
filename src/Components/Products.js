@@ -40,7 +40,12 @@ const Product = () => {
 
   return (
     <Layout>
-      <div className="row">{product_list}</div>
+      <div className="row">
+      <div className="col s12">
+        <p>Note : All the items are coming from JSON file which is locally in project inside src folder. Instead of getting data from  local file you can list all product by getting from server using any REST API.</p>
+        </div>
+        {product_list}
+        </div>
     </Layout>
   );
 };
