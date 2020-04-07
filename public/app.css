@@ -61,3 +61,26 @@ p {
     width: 100%;
     transition: all 0.3s;
 }
+
+input {  padding: 0px 15px !important;}
+input, textarea {
+  border: solid 1px #e8e8e8 !important;
+  box-sizing: border-box !important;
+  margin-bottom: 20px !important;
+}
+
+  
+textarea {resize: none; min-height: 100px; padding: 15px !important;}
+textarea:focus {outline: none;}
+
+label {
+  font-size: 14px;
+  color: #696969;
+  margin-bottom: 10px !important;
+  display: block;
+}
+.text-center {text-align: center;}
+.girl {
+  width: 200px;
+    margin-top: 50px;
+}

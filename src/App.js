@@ -2,9 +2,8 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import Layout from './Components/Layout'
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom'
-import { render } from '@testing-library/react';
 import About from './Components/About'
-import Blog from './Components/Blog'
+import Contact from './Components/Contact'
 import Product from './Components/Products'
 import ProductDetails from './Components/ProductDetails'
 
@@ -64,7 +63,7 @@ function App() {
             <Route path="/about" component={About}></Route>
             <Route exact path="/product" component={Product}></Route>
             <Route path="/product/:id" component={ProductDetails}></Route>
-            <Route path="/blog" component={Blog}></Route>
+            <Route path="/contact" component={Contact}></Route>
           </Switch>
     </BrowserRouter>
   );
